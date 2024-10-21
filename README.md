@@ -27,16 +27,20 @@ The motivation for this project arises from the need to understand the differenc
 5. Identify disparities in economic growth among the EAC nations and propose actionable insights for fostering **equitable development**.
 
 ## Data Sources and Timeline
-The data for this project was sourced from the [World Bank](https://data.worldbank.org/). The analysis timeline spans from 2005 to 2022.
+
+The data for this project was sourced from the [World Bank](https://www.worldbank.org). The analysis timeline spans from 2005 to 2022.
 
 ## Tools
-- **Excel**: For initial cleaning and arranging of the data.
-- **Python**: For data analysis and processing, using libraries such as:
-  - `pandas`
-  - `plotly`
-  - `matplotlib`
-  - `seaborn`
-- **Jupyter Notebooks**: For interactive data analysis and visualization.
+
+- **Excel**: For initial cleaning and arranging of data.
+- **Python**: Used for data analysis and manipulation.
+  - Libraries:
+    - `Pandas`: For data handling and analysis.
+    - `Plotly`: For interactive visualizations.
+    - `Matplotlib`: For creating static visualizations.
+    - `Seaborn`: For advanced statistical graphics.
+- **Jupyter Notebooks**: For documenting the analysis process and visualizing data.
+
 
 ## Project Workflow
 1. Data collection from reliable sources such as the World Bank and UNESCO.
@@ -47,27 +51,47 @@ The data for this project was sourced from the [World Bank](https://data.worldba
 ## Insights and Recommendations
 
 ### Key Insights
-1. **GDP Growth**: Rwanda showed the highest GDP growth rate (7.27%), while Burundi struggled with the lowest rate (1.92%).
-2. **GDP Per Capita**: Kenya had the highest average GDP per capita (1,443.87 USD), while Burundi had the lowest (265.09 USD).
-3. **Political Stability**: Countries like Rwanda improved political stability scores (from -1.00 to 0.03), resulting in higher economic growth.
-4. **FDI Impact**: Tanzania and Uganda received the highest FDI inflows, correlating with their higher growth rates (5.87% and 5.86%, respectively).
-5. **Control of Corruption**: Rwanda's improvement in corruption control (189% increase) aligned with its GDP growth, highlighting the importance of governance.
+- **GDP Growth Rates**: Between **2005 and 2022**, **Rwanda** achieved the highest GDP growth rate of **7.27%**, while **Burundi** experienced the lowest GDP growth rate of **2.55%**, highlighting significant economic disparities within the region.
 
+  ![GDP GROWTH](https://github.com/user-attachments/assets/5087c439-6a8d-4dd2-9d8d-9c79c5ed6397)
+
+  
+- **GDP Per Capita**: In **2022**, **Kenya** had the highest GDP per capita at **1,755 USD**, followed by **Tanzania** at **1,058 USD**. In contrast, **Burundi's GDP per capita** dropped by **-11.19%D**, indicating severe economic challenges that need addressing.
+
+  ![avg gdp per capita](https://github.com/user-attachments/assets/ac223474-299f-4b02-bce9-ed9a120b22ec)
+
+  
+- **Political Stability Scores**: **Rwanda's** improvement in political stability is notable, with a score change from **-1.00 in 2005 to 0.031 in 2022**, representing a **103.1%** increase. This positive trend correlates with its robust economic growth.
+
+
+
+  - **Corruption Control**: **Rwanda** also improved its control of corruption score from **-0.629 in 2005 to 0.561 in 2022**, marking a **189.19%** improvement. In comparison, **Burundi's score** worsened from **-0.957 to -1.518**, showing a **58.62%** decline, which aligns with its negative economic growth.
+
+  
+  
+- **Foreign Direct Investment (FDI)**: **Tanzania** and **Uganda** showed strong connections between FDI and economic performance, with average FDI of **1,194.28 million USD** and **1,027.89 million USD**, respectively. Their average GDP growth rates were **5.87%** and **5.86%**, highlighting the critical role of foreign investment in economic development.
+
+  
+
+  
 ### Recommendations
-1. **Burundi**: Focus on enhancing **political stability** and governance to foster economic growth. Improving political stability by at least 20% could significantly boost GDP.
-2. **Kenya**: Strengthen **anti-corruption efforts** and **rule of law** to maintain growth momentum and stabilize political conditions further.
-3. **Rwanda**: Continue leveraging governance improvements, aiming to attract **more FDI** to sustain its high growth rate of 7.27%.
-4. **Tanzania and Uganda**: **Encourage FDI** through incentives and stable regulatory frameworks, considering their positive growth correlation with higher FDI inflows.
-5. **Overall EAC**: Promote regional cooperation to share best practices in governance and economic development for **balanced growth**.
+1. **Improve Governance in Burundi**: Strengthen political stability in Burundi, which has the lowest political stability score at -1.189 (2022), to support economic growth.
+2. **Attract Foreign Investment in Tanzania and Uganda**: Create clear rules and incentives to encourage foreign direct investment (FDI). Tanzania and Uganda have the highest average FDI at 1,194.28 million USD and 1,027.89 million USD, respectively.
+3. **Reduce Corruption in Kenya and Uganda**: Implement measures to lower corruption. Kenya's corruption score improved from -1.013 in 2005 to -0.760 in 2022, while Uganda's score worsened from -0.834 to -1.042, indicating a need for better governance.
+4. **Encourage Regional Cooperation**: Promote collaboration among EAC countries (Burundi, Kenya, Rwanda, Tanzania, and Uganda) to share resources and best practices for balanced development, as disparities in GDP growth rates indicate uneven progress.
+5. **Invest in Education Across the Region**: Focus on improving education and skills training in all EAC countries to prepare the workforce for new job opportunities, particularly in Burundi, where GDP per capita is the lowest at 262.00 USD (2022).
+.
 
 ## Limitations
-- The analysis could not include all EAC countries, as **South Sudan** had missing data on key metrics like GDP and political stability. 
-- Some other relevant indicators, such as **education levels** and **infrastructure quality**, were not included but could impact economic development.
+This analysis has several limitations that should be considered:
+- **Incomplete Country Coverage**: Not all countries in the East African Community (EAC) were included due to missing data, particularly for South Sudan, limiting comprehensive comparisons.
+- **Omitted Indicators**: Key factors such as **infrastructure development**, **access to education**, and **health metrics** were not analyzed, which could significantly impact economic growth and development outcomes.
+- **External Influences**: Global economic trends and local policies may also impact the findings and interpretations of this analysis.
 
 ## Impact and Future Plans
-The insights from this project can help **policymakers** and **stakeholders** in the EAC implement strategies for economic development. Future plans include:
-- Expanding the analysis to cover **additional socio-economic indicators**, such as education and infrastructure.
-- Creating **interactive dashboards** for real-time tracking and visualizing economic trends.
+The insights gained from this project can **inform policymakers and stakeholders** in the EAC to implement effective strategies for economic development.
+Future plans include expanding the analysis to incorporate additional metrics and exploring the impact of **socio-economic factors**. The project is dedicated to improving the understanding of economic dynamics in the region and aims to **create interactive dashboards** for better visualization of data, thereby enhancing accessibility and engagement with the findings.
+
 
 ## References
 - [World Bank](https://data.worldbank.org/)
