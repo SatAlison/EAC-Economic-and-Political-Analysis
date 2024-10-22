@@ -19,12 +19,22 @@ This project analyzes the economic growth of East African Community (EAC) countr
 ## Motivation and Objectives
 The motivation for this project arises from the need to understand the differences in economic growth among EAC countries. By analyzing GDP, political stability, and FDI, we provide insights into how these factors influence development.
 
-## Objectives
-1. Examine **GDP growth rates** and trends in EAC countries from 2005 to 2022, identifying key drivers of economic change.
-2. Investigate the correlation between **political indicators**, such as governance and stability, and their influence on economic growth.
-3. Assess the role of **foreign direct investment (FDI)** in shaping economic performance and growth trajectories in the EAC region.
-4. Evaluate the impact of **GDP per capita** on overall economic well-being and development in the EAC countries.
-5. Identify disparities in economic growth among the EAC nations and propose actionable insights for fostering **equitable development**.
+# Objectives
+
+## Objective A: Economic Development Comparison
+1. Analyze **GDP**, **GDP growth rates** and **GDP per capita** across EAC countries from 2005 to 2022.
+2. Identify disparities in economic growth among the EAC nations and propose actionable insights for fostering **equitable development**.
+
+## Objective B: Feature Correlations
+1. Investigate correlations between **political indicators and FDI**  and economic performance.
+
+## Objective C: Political Analysis
+1. Assess the influence of **political stability** and **governance** on economic growth rates in EAC countries.
+2. Analyze the correlation between **governance indicators** (e.g., control of corruption, rule of law) and economic performance.
+
+## Objective D: Foreign Direct Investment (FDI) Analysis
+1. Examine **FDI trends** in EAC countries and their impact on economic growth.
+
 
 ## Data Sources and Timeline
 
