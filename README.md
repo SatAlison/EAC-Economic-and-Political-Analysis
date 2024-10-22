@@ -19,26 +19,28 @@ This project analyzes the economic growth of East African Community (EAC) countr
 ## Motivation and Objectives
 The motivation for this project arises from the need to understand the differences in economic growth among EAC countries. By analyzing GDP, political stability, and FDI, we provide insights into how these factors influence development.
 
-# Objectives
+## Objectives
 
-## Objective A: Economic Development Comparison
+### Objective A: Economic Development Comparison
 1. Analyze **GDP**, **GDP growth rates** and **GDP per capita** across EAC countries from 2005 to 2022.
 2. Identify disparities in economic growth among the EAC nations and propose actionable insights for fostering **equitable development**.
 
-## Objective B: Feature Correlations
+### Objective B: Feature Correlations
 1. Investigate correlations between **political indicators and FDI**  and economic performance.
 
-## Objective C: Political Analysis
+### Objective C: Political Analysis
 1. Assess the influence of **political stability** and **governance** on economic growth rates in EAC countries.
 2. Analyze the correlation between **governance indicators** (e.g., control of corruption, rule of law) and economic performance.
 
-## Objective D: Foreign Direct Investment (FDI) Analysis
+### Objective D: Foreign Direct Investment (FDI) Analysis
 1. Examine **FDI trends** in EAC countries and their impact on economic growth.
-
 
 ## Data Sources and Timeline
 
 The data for this project was sourced from the [World Bank](https://www.worldbank.org). The analysis timeline spans from 2005 to 2022.
+
+![Screenshot (31)](https://github.com/user-attachments/assets/da7881c9-6bee-4b29-a38e-b44a0ac53f69)
+
 
 ## Tools
 
@@ -61,6 +63,12 @@ The data for this project was sourced from the [World Bank](https://www.worldban
 ## Insights and Recommendations
 
 ### Key Insights
+
+- **GDP**: **Kenya** experienced the highest percentage increase in **GDP** at approximately **505.29%**, followed by **Uganda** at **393.18%**, while **Burundi** had the lowest at **198.93%**.
+
+  ![gdp](https://github.com/user-attachments/assets/0a55cf53-7523-41f0-a96d-049c5cdaf4c7)
+
+
 - **GDP Growth Rates**: Between **2005 and 2022**, **Rwanda** achieved the highest GDP growth rate of **7.27%**, while **Burundi** experienced the lowest GDP growth rate of **2.55%**, highlighting significant economic disparities within the region.
 
   ![GDP GROWTH](https://github.com/user-attachments/assets/5087c439-6a8d-4dd2-9d8d-9c79c5ed6397)
@@ -74,14 +82,13 @@ The data for this project was sourced from the [World Bank](https://www.worldban
 - **Political Stability Scores**: **Rwanda's** improvement in political stability is notable, with a score change from **-1.00 in 2005 to 0.031 in 2022**, representing a **103.1%** increase. This positive trend correlates with its robust economic growth.
 
 
-
-  - **Corruption Control**: **Rwanda** also improved its control of corruption score from **-0.629 in 2005 to 0.561 in 2022**, marking a **189.19%** improvement. In comparison, **Burundi's score** worsened from **-0.957 to -1.518**, showing a **58.62%** decline, which aligns with its negative economic growth.
-
-  
-  
+ - **Control of Corruption**: **Rwanda** also improved its control of corruption score from **-0.629 in 2005 to 0.561 in 2022**, marking a **189.19%** improvement. In comparison, **Burundi's score** worsened from **-0.957 to -1.518**, showing a **58.62%** decline, which aligns with its negative economic growth.
+   
+![coc](https://github.com/user-attachments/assets/b248a43b-fb13-465a-b509-bee98421259d)
+    
 - **Foreign Direct Investment (FDI)**: **Tanzania** and **Uganda** showed strong connections between FDI and economic performance, with average FDI of **1,194.28 million USD** and **1,027.89 million USD**, respectively. Their average GDP growth rates were **5.87%** and **5.86%**, highlighting the critical role of foreign investment in economic development.
 
-  
+  ![fdi](https://github.com/user-attachments/assets/b8e35409-19c3-4930-857d-be5a08988fe4)
 
   
 ### Recommendations
